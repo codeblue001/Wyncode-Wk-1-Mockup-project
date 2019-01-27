@@ -3,6 +3,7 @@
 body {
   margin: 0 auto;
   text-align: center;
+  font-family: 'Lato', sans-serif;
 }
 
 header {
@@ -10,6 +11,11 @@ header {
   align-items: center;
   justify-content: center;
 }
+
+header img {
+  margin-top: -5px;
+}
+
 ul.main-nav {
   display: flex;
   list-style-type: none;
@@ -18,6 +24,8 @@ ul.main-nav {
 
 ul li {
   padding-right: 20px;
+  font-size: 12px;
+  margin-top: 8px;
 }
 
 .button-one {
@@ -47,13 +55,19 @@ main {
 
 .intro {
   color: white;
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
+  padding-top: 20px;
+}
+
+.intro h1 {
+  font-size: 27px;
 }
 
 .intro p {
-  width: 70%;
+  width: 40%;
   margin: 0 auto;
+  font-size: 14px;
 }
 
 .tour {
@@ -85,13 +99,18 @@ main {
 /* Styling for the section*/
 
 .intro-two {
-  width: 50%;
+  width: 65%;
   margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.intro-two h1 {
+  font-size: 36px;
 }
 
 .intro-two p {
   color: #787878;
-  width: 70%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -114,31 +133,38 @@ main {
   padding: 5px;
 }
 
+section {
+  margin-bottom: 25px;
+}
 /*Styling for section 2*/
-.section-two{
+section.section-two {
+  background-color: #F5F5F5;
+}
+
+div.dgray{
   display: flex;
-  background-color: #F0F0F0;
   color: #787878;
+  width: 50%;
+  margin: 20px auto;
 }
 
 
-.column-one, .column-two, .column-three {
-  border: 1px solid #BEBEBE;
-  margin: 1px;
-  flex-grow: 1;
-  flex-basis: 0;
+.column-one .column-two, .column-three {
+  text-align: left;
+  padding: 5px;
 }
 
 hr {
   border: 1px solid #E0E0E0;
 }
 
-div.column-3 {
-  display: block;
+.column-3 {
+  border: 1px solid green;
 }
 
 .hr-one, .hr-two, .hr-three {
   display: flex;
+  flex-direction: column;
 }
 
 /* Styling for the footer*/
@@ -149,17 +175,20 @@ footer {
 
 .footer-nav {
   display: flex;
-  margin: 0 auto;
+  margin: 20px auto;
   width: 60%;
   list-style-type: none;
-  padding-left: 300px;
+  padding-left: 350px;
   color: #787878;
+  font-size: 14px;
 }
 
 .social {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 15px;
+  font-size: 12px;
 }
 
 .on-one {
