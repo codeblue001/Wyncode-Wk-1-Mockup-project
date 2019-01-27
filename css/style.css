@@ -16,6 +16,14 @@ header img {
   margin-top: -5px;
 }
 
+.home {
+  border: 1px solid #E0E0E0;
+  border-radius: 10px;
+  padding-left: 15px;
+  margin-right: 5px;
+  background-color: #E0E0E0;
+}
+
 ul.main-nav {
   display: flex;
   list-style-type: none;
@@ -139,6 +147,8 @@ section {
 /*Styling for section 2*/
 section.section-two {
   background-color: #F5F5F5;
+  border-top: 1px solid #E0E0E0;
+  border-bottom: 1px solid #E0E0E0;
 }
 
 div.dgray{
@@ -149,23 +159,49 @@ div.dgray{
 }
 
 
-.column-one .column-two, .column-three {
+.column-one, .column-two, .column-three {
   text-align: left;
   padding: 5px;
+  width: 1000px;
+  font-size: 10px;
 }
 
 hr {
   border: 1px solid #E0E0E0;
 }
 
-.column-3 {
-  border: 1px solid green;
+.column-two {
+  border-left: 1px solid #E0E0E0;
+  line-height: 150%;
+}
+.column-one {
+  line-height: 150%;
+
+}
+.column-three {
+  border-left: 1px solid #E0E0E0
 }
 
-.hr-one, .hr-two, .hr-three {
+.hr-two, .hr-three {
   display: flex;
-  flex-direction: column;
 }
+
+.hr-one, .inline {
+  display: flex;
+  line-height: 50%;
+}
+
+.hr-one div h3 {
+  padding-right: 70px;
+  padding-left: 10px;
+}
+
+.hr-one div p {
+  border: 1px solid #E0E0E0;
+  padding: 2px;
+  border-radius: 5px;
+}
+
 
 /* Styling for the footer*/
 footer {
@@ -173,14 +209,17 @@ footer {
   width: 60%;
 }
 
-.footer-nav {
+ul.footer-nav {
   display: flex;
   margin: 20px auto;
-  width: 60%;
+  width: 35%;
   list-style-type: none;
-  padding-left: 350px;
-  color: #787878;
   font-size: 14px;
+  align-items: center;
+}
+
+.footer-nav li {
+  margin: 0 auto;
 }
 
 .social {
@@ -189,6 +228,11 @@ footer {
   justify-content: center;
   margin-bottom: 15px;
   font-size: 12px;
+}
+
+a{
+  text-decoration: none;
+  color: #696969;
 }
 
 .on-one {
