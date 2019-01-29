@@ -4,6 +4,7 @@ body {
   margin: 0 auto;
   text-align: center;
   font-family: 'Lato', sans-serif;
+  min-width: 1470px;
 }
 
 header {
@@ -58,7 +59,7 @@ ul li {
 
 
 main {
-  background-color: #383838;
+  background-color: #3B3E47;
 }
 
 .intro {
@@ -107,7 +108,7 @@ main {
 /* Styling for the section*/
 
 .intro-two {
-  width: 65%;
+  width: 85%;
   margin: 0 auto;
   margin-bottom: 25px;
 }
@@ -126,14 +127,14 @@ main {
 .pitch {
   display: flex;
   margin: 0 auto;
-  width: 50%;
+  width: 55%;
 }
 
 .border {
   border: 1px solid #66CCFF;
   padding: 5px;
   border-radius: 5px;
-  background-color: #F0F0F0;
+  background-color: #FBFBFB;
 }
 
 .invisible {
@@ -151,10 +152,47 @@ section.section-two {
   border-bottom: 1px solid #E0E0E0;
 }
 
+.flex {
+  display: inline;
+}
+
+.push {
+  padding-left: 20px;
+}
+
+.down {
+  padding-left: 20px;
+  margin-bottom: -22px;
+}
+
+.left {
+  margin-left: 35px;
+  line-height: 170%;
+  width: 65%;
+}
+
+.bottom {
+  padding-bottom: 20px;
+}
+
+.black {
+  color: black;
+  font-weight: 700;
+}
+
+.padding{
+  margin-left: 12px;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}
+
 div.dgray{
   display: flex;
   color: #787878;
-  width: 50%;
+  width: 55%;
   margin: 20px auto;
 }
 
@@ -174,8 +212,10 @@ hr {
   border-left: 1px solid #E0E0E0;
   line-height: 150%;
 }
+
+
 .column-one {
-  line-height: 150%;
+  line-height: 100%;
 
 }
 .column-three {
