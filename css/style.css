@@ -298,13 +298,13 @@ footer p {
 }
 
 .twitter {
-  border: 1 solid #1dcaff;
+  border: 1px solid #1dcaff;
   background-color: #1dcaff;
   border-radius: 5px;
 }
 
 .facebook {
-  border: 1 solid #3b5998;
+  border: 1px solid #3b5998;
   background-color: #3b5998;
   border-radius: 5px;
 }
@@ -328,4 +328,8 @@ h3.on-two{
 
 div.twitter{
   margin-right: 15px;
+}
+
+#size {
+	font-size: 35px;
 }
